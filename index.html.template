@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<!--
+	Lens by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>记录生活，分享美好</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/{0}/docs/static/css/main.css" />
+		<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/{0}/docs/static/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload-0 is-preload-1 is-preload-2">
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>记录生活，</h1>
+						<h1>分享美好</h1>
+						<p>我见青山多妩媚，料青山见我应如是</p>
+						<ul class="icons">
+							<li><a href="https://weibo.com/jwenjian1210" class="icon brands fa-weibo"><span class="label">Weibo</span></a></li>
+							<li><a href="https://github.com/jwenjian" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						</ul>
+					</header>
+
+				    <!-- Thumbnail -->
+					<section id="thumbnails">
+					    <!--articles-->
+						{1}
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="copyright">
+							<li>&copy; <a href="https://github.com/{0}">{0}</a></li>
+							<!--last update time-->
+							<li>最近更新：{2}</li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="https://cdn.jsdelivr.net/gh/{0}/docs/static/js/jquery.min.js"></script>
+			<script src="https://cdn.jsdelivr.net/gh/{0}/docs/static/js/browser.min.js"></script>
+			<script src="https://cdn.jsdelivr.net/gh/{0}/docs/static/js/breakpoints.min.js"></script>
+			<script src="https://cdn.jsdelivr.net/gh/{0}/docs/static/js/main.js"></script>
+
+	</body>
+</html>
