@@ -19,7 +19,7 @@ jobs:
     - name: run python script
       env:
         GITHUB_LOGIN: jwenjian
-        GITHUB_PERSONAL_TOKEN: ${{ secrets.GITHUB_PERSONAL_TOKEN }}
+        GITHUB_PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: python3 main.py
     - name: config git info
       run: |
