@@ -59,8 +59,8 @@ def download_and_gen_thumbnail_and_upload(image_url: str, issue_id: int):
             f.flush()
             f.close()
             img = Image.open(full_img_file)
-            bg = Image.new(mode='RGB', size=img.size, color=(255, 255, 255))
-            bg.paste(img, img)
+            bg = Image.new('L', img.size, 0)
+            bg.paste(img, (0,0), img)
             bg.thumbnail((240, 320))
             bg.save(thumb_img_file)
 
